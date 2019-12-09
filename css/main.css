@@ -1,0 +1,246 @@
+
+.navbar {
+  overflow: hidden; 
+  background-color: #fff;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 20px; 
+  text-decoration: none;
+  font-family: Gotham Book;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  color: #BA0700;
+}
+
+
+img{
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+
+.header {
+	padding: 80px;
+	text-align: left;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)),url(../images/SFX_images/pat_face.png);
+	height: 480px;
+	background-size: cover;
+	color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+  font-family: BlairMdITC TT;
+}
+
+
+.row1 { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 50%; 
+  background-color: white; 
+  text-align: center;
+  padding: 20px;
+} 
+
+.side2 {
+  flex: 30%; 
+  background-color: #e6e7e8;
+  background-size: height:500px; 
+  text-align: center;
+  padding: 20px;
+} 
+
+.main { 
+	flex: 70%;
+	background-color: white; 
+	padding: 20px;
+	text-align: right;
+	height: 20px;
+	background-size: cover;
+	color: white;
+}
+
+#SFX {
+	color: #000;
+	font-family: Gotham Bold;
+	font-size: 110px;
+	text-align: left;
+}
+#Makeup {
+	color: #000;
+	font-size: 100px;
+	font-family: Franklin Gothic Book;
+	text-align: left;
+}
+
+#undermain {
+	width: 800px;
+	text-align: left;
+}
+
+#Bring {
+	color: #000;
+	font-size: 40px;
+	font-family: Book Antiqua;
+	text-align: left;
+}
+
+#e{
+	color: #ed1515;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#f{
+	color: #06b745;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#f2 {
+	color: #f2930a;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#e2 {
+	color: #0086ff;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#c {
+	color: #6919db;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#t {
+	color: #f245af;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#s {
+	color: #06b745;
+	font-size: 32.88px;
+	font-family: Book Antiqua Bold;
+	text-align: left;
+}
+
+#for{
+	color: #000;
+	font-size: 32.88px;
+	font-family: Book Antiqua;
+	text-align: left;
+}
+
+#text {
+	color: #000;
+	font-size: 20px;
+	font-family: Franklin Gothic Book;
+	text-align: left;
+}
+
+#text2 {
+	color: #000;
+	font-size: 24px;
+	font-family: Franklin Gothic Book;
+	text-align: center;
+}
+
+.Footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+.navbar2 {
+  overflow: hidden; 
+  background-color: #fff;
+}
+
+.navbar2 a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 20px; 
+  text-decoration: none;
+  font-family: Gotham Book;
+}
+
+.navbar2 a:hover {
+  color: #BA0700;
+}
+
+.navbar2 .search-container {
+  float: right;
+}
+
+.navbar2 input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.navbar2 .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar2 .search-container button:hover {
+  background: #BA0700;
+}
+
+
+body {
+  margin: 0;
+  font-family: Gotham Book;
+}
+
+.pics {
+	margin-left: auto;
+}
+
+.imageBox {
+	display: flex;
+	flex-direction: flex-start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 1920px;
+}
+
+.imageBox img{
+	padding: 50px;
+}
