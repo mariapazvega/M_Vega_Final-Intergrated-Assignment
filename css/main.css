@@ -75,6 +75,9 @@ img{
 	background-size: cover;
 	color: white;
 }
+#brush {
+	text-align: center;
+}
 
 #SFX {
 	color: #000;
