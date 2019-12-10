@@ -47,7 +47,8 @@ img{
 
 .row1 { 
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;	
+  flex: 50%;
 }
 
 .side {
